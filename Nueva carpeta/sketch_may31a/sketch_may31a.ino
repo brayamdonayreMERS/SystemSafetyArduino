@@ -44,8 +44,6 @@ void loop()
      else                           //Si la distancia respecto al sensor es mayor a 150
      {
       digitalWrite(motor,LOW);      //Entonces el motor se apagará
-      digitalWrite(6,LOW);
-      digitalWrite(7,LOW);
       Serial.println("!NO HAY INTRUSOS POR SONIDO!"); //Se imprime en la pantalla que no hay intrusos
      }
   digitalRead(pir);         // Se lee los valores del sensor PIR
