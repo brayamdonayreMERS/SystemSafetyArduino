@@ -56,7 +56,7 @@ void loop()
       digitalWrite(7,HIGH);
       Serial.println("!INTRUSOS POR PIR!"); //Inmediatamente se imprimirá que hay intrusos
     }
-    else // Si los valores del PIR es 0==HIGH 
+    else // Si los valores del PIR es 0==LOW 
     {
       digitalWrite(motor,LOW);//Entonces el motor se apagará
       Serial.println("!NO HAY INTRUSOS POR PIR!");//Se imprime en la pantalla que no hay intrusos
