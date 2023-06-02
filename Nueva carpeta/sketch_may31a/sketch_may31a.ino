@@ -13,7 +13,7 @@ void setup()
 
   Serial.begin(9600); //Visualizacion de los valores por consola
   //Determinados el tipo de la variable que será, si recibirán la información (INPUT) o si enviarán información(OUTPUT)
-  pinMode(trig, OUTPUT);
+  pinMode(trig, OUTPUT); //trig esta en pin digital numero 2 del arduino
   pinMode(echo, INPUT);
   pinMode(pir, INPUT);
   pinMode(motor, OUTPUT);
