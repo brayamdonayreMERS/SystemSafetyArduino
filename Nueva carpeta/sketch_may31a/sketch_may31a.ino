@@ -30,7 +30,7 @@ void loop()
   //Dividimos entre 58.2, puesto que el tiempo que transcurre en rebotar la onda recorre dos veces la distancia que está el sensor y el objeto y el numero 58.2 para que nos den en centimetros ya que una pulgada equivale a 29.1 cm  
   distancia=tiempo/58.2;
   Serial.println(distancia); //Imprimimos la variable distancia
-  delay(500);
+  delay(300);
     if (distancia<=150)  //Si la distancia es menor o igual a 150
     {
        digitalWrite(motor,HIGH);                //Entonces el motor se encenderá
